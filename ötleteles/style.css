@@ -1,0 +1,87 @@
+/* Alap stílusok */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Sötét háttér */
+    color: #e0e0e0; /* Világos szürke szöveg */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Fejléc */
+header {
+    background-color: #1c1c1c; /* Sötétszürke */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: #ffffff; /* Fehér szöveg */
+    font-size: 2.5em;
+}
+
+/* Navigáció */
+nav {
+    margin: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #bbbbbb; /* Halvány szürke */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffffff; /* Fehér, ha fölé viszik az egeret */
+    text-decoration: underline;
+}
+
+/* Cikkek és szekciók */
+article {
+    background-color: #1a1a1a; /* Enyhén világosabb szürke */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #d1d1d1; /* Világos szürke */
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Lábléc */
+footer {
+    background-color: #1c1c1c; /* Sötét szürke */
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer p {
+    color: #aaaaaa; /* Halvány szürke */
+    margin: 0;
+    font-size: 0.9em;
+}
