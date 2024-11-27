@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   background-image: url(KEPEK/background.jpg);
   background-size: cover; 
-  color:rgb(22, 255, 0);
+  color:white;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -42,7 +42,7 @@ nav li {
 }
 
 nav a {
-  color: #bbbbbb;
+  color: white;
   text-decoration: none;
   font-weight: bold;
   position: relative;
@@ -50,7 +50,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #ffffff;
+  color: #2fffe6;
   text-decoration: none;
 }
 
@@ -59,7 +59,7 @@ nav a::after {
   display: block;
   width: 0;
   height: 2px;
-  background: #ffffff;
+  background: #2fffe6;
   transition: width 0.3s ease;
   position: absolute;
   bottom: -4px;
@@ -78,7 +78,7 @@ article {
   transition: box-shadow 0.3s ease;
 }
 h2 {
-  color: #2fffe6;
+  color: white;
   margin-top: 30px;
   position: relative;
 }
