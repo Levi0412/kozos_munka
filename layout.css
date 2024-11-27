@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   background-color: rgb(39, 0, 93);
-  color:rgb(22, 255, 0);
+  color:#2fffe6;
   margin: 0;
   padding: 0;
   line-height: 1.6;
@@ -74,11 +74,11 @@ article {
   background-color: rgb(148, 0, 255);
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.10);
   transition: box-shadow 0.3s ease;
 }
 h2 {
-  color: #d1d1d1;
+  color: #2fffe6;
   margin-top: 30px;
   position: relative;
 }
@@ -86,7 +86,7 @@ h2::before {
   content: "";
   width: 50px;
   height: 4px;
-  background: #ffffff;
+  background: rgb(39, 0, 93);
   position: absolute;
   bottom: -10px;
   left: 0;
@@ -96,7 +96,7 @@ p {
   margin-bottom: 15px;
 }
 footer {
-  background: linear-gradient(90deg, #1c1c1c, #333333);
+  background: linear-gradient(90deg, black, rgb(148, 0, 255));
   color: #fff;
   text-align: center;
   padding: 10px 0;
