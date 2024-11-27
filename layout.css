@@ -1,6 +1,7 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: rgb(39, 0, 93);
+  background-image: url(KEPEK/background.jpg);
+  background-size: cover; 
   color:rgb(22, 255, 0);
   margin: 0;
   padding: 0;
