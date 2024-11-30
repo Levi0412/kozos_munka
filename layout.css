@@ -131,7 +131,7 @@ footer {
   margin-top: 20px;
   border-radius: 8px;
 }
-@media screen and (max-width: 325px) {
+@media screen and (max-width: 350px) {
 
   nav li a{
     display: grid;

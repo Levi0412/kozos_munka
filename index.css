@@ -146,8 +146,23 @@ footer {
 .social-media {
   margin-top: 10px;
 }
+.social-icon {
+  color: #ffffff;
+  font-size: 24px;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
 
-@media screen and (max-width: 325px) {
+.social-icon:hover {
+  color: #2fffe6; 
+}
+
+.social-icon i {
+  margin-right: 8px;
+}
+
+@media screen and (max-width: 350px) {
 
 nav li a{
   display: grid;
