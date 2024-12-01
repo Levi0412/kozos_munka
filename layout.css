@@ -156,7 +156,16 @@ footer {
   }
   .grid-container:nth-child(even) .text-content {
     order: 1;
-  
+  }
+  .social-media{
+    margin-top: 8px;
+  }
+  .social-icon{
+    font-size: 20px;
+    margin: 0 10;
+  }
+  .social-icon i{
+    margin-right: 6px;
   }
 }
 @media screen and (max-width: 440px) {
@@ -165,6 +174,18 @@ footer {
     display: grid;
     grid-template-columns: 1fr;
     
+  }
+  .social-media{
+    margin-top: 5px;
+    text-align: center;
+  }
+  .social-icon{
+    font-size: 18px;
+    margin: 0 8px;
+    display: inline-block;
+  }
+  .social-icon i {
+    margin-right: 4px;
   }
 }
 .social-media {
