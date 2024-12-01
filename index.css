@@ -2,7 +2,7 @@ body {
   text-align: justify;
   font-family: Arial, sans-serif;
   background-image: url(KEPEK/background.jpg);
-  background-size: cover; 
+  background-size: cover;
   color: white;
   margin: 0;
   padding: 0;
@@ -16,6 +16,7 @@ main {
   padding: 20px;
 }
 header {
+  margin: 20px 0;
   text-align: center;
 }
 header h1 {
@@ -23,9 +24,7 @@ header h1 {
   color: white;
   font-size: 2.5em;
 }
-.main-page{
-  font-size: 2rem;
-}
+
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -39,7 +38,6 @@ header h1 {
 
 .grid-container:nth-child(odd) .image-container {
   order: 2;
-  
 }
 
 .grid-container:nth-child(even) .text-content {
@@ -78,6 +76,10 @@ nav li {
   display: inline;
   margin: 0 15px;
 }
+nav li h1{
+  font-size: 2.5em;
+  text-align: center;
+}
 
 nav a {
   color: white;
@@ -108,14 +110,14 @@ nav a::after {
 nav a:hover::after {
   width: 100%;
 }
-header a{
+header a {
   color: white;
   text-decoration: none;
   font-weight: bold;
   position: relative;
   transition: color 0.3s ease;
 }
-header a:hover{
+header a:hover {
   color: #2fffe6;
   text-decoration: none;
 }
@@ -132,7 +134,7 @@ header a::after {
   transform: translateX(-50%);
 }
 
-header a:hover::after{
+header a:hover::after {
   width: 100%;
 }
 footer {
@@ -155,18 +157,17 @@ footer {
 }
 
 .social-icon:hover {
-  color: #2fffe6; 
+  color: #2fffe6;
 }
 
 .social-icon i {
   margin-right: 8px;
 }
-@media screen and (max-width: 965px){
-  nav li a{
+@media screen and (max-width: 965px) {
+  nav li a {
     display: flex;
-  justify-content: space-around; 
-  margin: 0;
-    
+    justify-content: space-around;
+    margin: 0;
   }
   .grid-container {
     display: grid;
@@ -174,45 +175,34 @@ footer {
     gap: 20px;
     margin-bottom: 40px;
   }
-    .grid-container:nth-child(odd) .text-content {
-      order: 1;
-      
-    
+  .grid-container:nth-child(odd) .text-content {
+    order: 1;
   }
   .grid-container:nth-child(odd) .image-container {
     order: 2;
-    
   }
   .grid-container:nth-child(even) .text-content {
     order: 1;
-  
   }
 }
 @media screen and (max-width: 440px) {
-
-nav li a{
-  display: grid;
-  grid-template-columns: 1fr;
-  
-}
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 20px;
-  margin-bottom: 40px;
-}
+  nav li a {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
   .grid-container:nth-child(odd) .text-content {
     order: 1;
-    
-  
-}
-.grid-container:nth-child(odd) .image-container {
-  order: 2;
-  
-}
-.grid-container:nth-child(even) .text-content {
-  order: 1;
-
-}
-
+  }
+  .grid-container:nth-child(odd) .image-container {
+    order: 2;
+  }
+  .grid-container:nth-child(even) .text-content {
+    order: 1;
+  }
 }
