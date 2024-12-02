@@ -1,5 +1,4 @@
 body {
-  text-align: justify;
   font-family: Arial, sans-serif;
   background-image: url(KEPEK/background.jpg);
   background-size: cover;
@@ -166,8 +165,8 @@ footer {
 }
 @media screen and (max-width: 1050px) {
   nav li a {
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr;
     margin: 0;
   }
   .grid-container {
