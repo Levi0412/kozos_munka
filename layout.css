@@ -15,17 +15,15 @@ main {
   padding: 20px;
 }
 header {
+  margin-left: 30px;
   text-align: center;
 }
 header h1 {
-  margin: 0;
   color: #ffffff;
   font-size: 2.5em;
   text-align: center;
 }
-.main-page{
-  font-size: 2rem;
-}
+
 img {
   display: block;
   max-width: 90%;
@@ -42,7 +40,10 @@ nav li {
   display: inline;
   margin: 0 15px;
 }
-
+nav li h1{
+  font-size: 2.5em;
+  text-align: center;
+}
 nav a {
   color: white;
   text-decoration: none;
@@ -156,7 +157,16 @@ footer {
   }
   .grid-container:nth-child(even) .text-content {
     order: 1;
-  
+  }
+  .social-media{
+    margin-top: 8px;
+  }
+  .social-icon{
+    font-size: 20px;
+    margin: 0 10;
+  }
+  .social-icon i{
+    margin-right: 6px;
   }
 }
 @media screen and (max-width: 440px) {
@@ -166,8 +176,17 @@ footer {
     grid-template-columns: 1fr;
     
   }
-  h1 {
-    size: 20px;
+  .social-media{
+    margin-top: 5px;
+    text-align: center;
+  }
+  .social-icon{
+    font-size: 18px;
+    margin: 0 8px;
+    display: inline-block;
+  }
+  .social-icon i {
+    margin-right: 4px;
   }
 }
 .social-media {
