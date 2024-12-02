@@ -22,6 +22,7 @@ header h1 {
   margin: 0;
   color: white;
   font-size: 2.5em;
+  text-align: center;
 }
 .main-page{
   font-size: 2rem;
@@ -161,7 +162,7 @@ footer {
 .social-icon i {
   margin-right: 8px;
 }
-@media screen and (max-width: 965px){
+@media screen and (max-width: 1050px){
   nav li a{
     display: flex;
   justify-content: space-around; 
@@ -214,5 +215,9 @@ nav li a{
   order: 1;
 
 }
+footer p{
+  padding: 10px;
+}
+
 
 }

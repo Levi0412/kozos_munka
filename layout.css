@@ -21,6 +21,7 @@ header h1 {
   margin: 0;
   color: #ffffff;
   font-size: 2.5em;
+  text-align: center;
 }
 .main-page{
   font-size: 2rem;
@@ -131,7 +132,7 @@ footer {
   margin-top: 20px;
   border-radius: 8px;
 }
-@media screen and (max-width: 965px){
+@media screen and (max-width: 1050px){
   nav li a{
     display: flex;
   justify-content: space-around; 
